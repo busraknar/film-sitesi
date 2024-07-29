@@ -1,4 +1,6 @@
 /*  base css start */
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+
 *{
 
     margin :0;
@@ -6,6 +8,7 @@
 
 body{
     height: 100vh;
+    font-family: "Electrolize", sans-serif;
 }
 
 /*  base css end */
@@ -13,6 +16,28 @@ body{
     background-color: black;
     height: 60px;
     color :white;
+    position: sticky;  /*Sabit kalsın navbar*/
+    top:0;
+
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding:0 50px;
+}
+
+.logo{
+    color:rgb(255,70,70);
+    font-size: 30px;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap:30px;  /*Her menü arası 30px*/
 }
 
 .sidebar{

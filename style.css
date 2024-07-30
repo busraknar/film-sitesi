@@ -40,6 +40,18 @@ body{
     column-gap:30px;  /*Her menü arası 30px*/
 }
 
+.menu-list-item{
+    cursor:pointer;
+}
+
+.menu-list-item:hover{
+    font-weight: bold;
+}
+
+.menu-list-item.active{
+    font-weight: bold;
+}
+
 .sidebar{
     background-color: blueviolet;
     color: white;

@@ -12,6 +12,8 @@ body{
 }
 
 /*  base css end */
+
+/* Navbar start*/
 .navbar{
     background-color: black;
     height: 60px;
@@ -51,6 +53,44 @@ body{
 .menu-list-item.active{
     font-weight: bold;
 }
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    object-fit:cover;
+    border: radius 50px;;
+
+}
+
+.profile-text-container{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    line-height: 1;
+}
+
+.toggle{
+    width:40px;
+    background-color: white;
+    position: relative;
+    height:20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toggle-icon{
+    color:goldenrod;
+}
+
+/* Navbar end*/
 
 .sidebar{
     background-color: blueviolet;

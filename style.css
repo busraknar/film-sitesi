@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 200vh;
+   /* height: 200vh;*/
     font-family: "Electrolize", sans-serif;
 }
 
@@ -16,7 +16,7 @@ body{
 /* Navbar start*/
 .navbar{
     background-color: black;
-    height: 60px;
+    height: 50px;
     color :white;
     position: sticky;  /*Sabit kalsın navbar*/
     top:0;
@@ -64,7 +64,7 @@ body{
     width: 32px;
     height: 32px;
     object-fit:cover;
-    border: radius 50px;;
+    border-radius: 50px;;
 
 }
 
@@ -112,3 +112,25 @@ body{
     cursor :pointer;
 }
 /*Sidebar end*/
+
+/*!featured start*/
+.featured-content{
+    background: url("img/spiderman.jpg");
+    padding: 50px;
+    height: calc(100vh);
+    background-size: 100% 100%;
+}
+
+.featured-title{
+    width:400px;
+}
+
+.featured-title{
+    width:400px;
+}
+
+.featured-desc{
+    width:500px;
+}
+
+/*! featured end*/

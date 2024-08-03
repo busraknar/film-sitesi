@@ -200,6 +200,8 @@ position: relative;
 
 .movie-item-img{
     width:270px;
+    height: 200px;
+    object-fit: cover;  /*Geniişliği koru*/
 }
 
 .movie-item-title{
@@ -210,6 +212,7 @@ position: relative;
     position: absolute;
     top: 10%;
     left:50px;
+    opacity: 0;
 }
 
 .movie-item-buttons{
@@ -222,6 +225,20 @@ position: relative;
     left:50px;
     display: flex;
     column-gap: 20px;
+
+}
+
+.movie-item-buttons i{
+    cursor: pointer;
+    opacity:.5;
+    font-size:20px;
+
+}
+
+.movie-item-buttons i:hover{
+    cursor: pointer;
+    opacity:.5;
+    font-size:20px;
 
 }
 /*! movie list end*/

@@ -199,6 +199,7 @@ body {
     align-items: center;
     column-gap: 30px;
     transform :translateX(0);
+    transition :1s all ease-in-out;
 
 }
 

@@ -6,8 +6,8 @@ arrows.forEach((arrow, i)=>{
    arrow.addEventListener("click", function(){
     movieLists[i].style.transform = `translateX(${movieLists[i].
     computedStyleMap().get("transform")[0].x.value}px)`
-});   //alt+ 96
-
+});   //alt+ 96, alt gr + virgül  //backtick keyword
+  
 
    //console.log(movieLists[i].computedStyleMap().get("transform")[0].x.value);
 });

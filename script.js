@@ -5,11 +5,11 @@ const movieLists= document.querySelectorAll(".movie-list");
 arrows.forEach((arrow, i)=>{
    arrow.addEventListener("click", function(){
     movieLists[i].style.transform = `translateX(${movieLists[i].
-    computedStyleMap().get("transform")[0].x.value}
+    computedStyleMap().get("transform")[0].x.value}px)`
 });   //alt+ 96
 
 
    //console.log(movieLists[i].computedStyleMap().get("transform")[0].x.value);
-
-
 });
+
+

@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 200vh;
+    
     font-family: "Electrolize", sans-serif;
 }
 
@@ -203,6 +203,7 @@ body {
 
 .movie-list-wrapper{
     overflow: hidden;
+    position: relative;
 }
 
 .movie-item {

@@ -344,3 +344,16 @@ body {
 }
 
 /*! dark mode end*/
+
+/* Responsive start*/
+
+@media only screen  and (max-width:800px){
+    .menu-container{
+        display: none;
+    }
+    
+    .featured-title{
+        width:200px;
+    }
+}
+/* Responsive end*/

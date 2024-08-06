@@ -93,19 +93,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    cursor: pointer;
+   
+
 }
 
+
 .toggle-ball {
-    width:20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     position: absolute;
-  top: 0px;
-  left: 0px;
-  border-radius: 100%;
-  background-color: black;
-  /*transition: all 0.1s ease;
-  transform: translate(1px, 2px);*/
+   right: 1px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    transition: .5s ease all;
+   /* transform: translate(1px, 2px);*/
 
 }
 
@@ -319,20 +321,24 @@ body {
     color: black;
 }
 
-.sidebar i.active{
+.sidebar i.active {
     color: black;
 }
 
-.toggle.active{
+.movie-list-title.active {
+    color: black;
+}
+
+.toggle.active {
     background-color: black;
 }
 
-.toggle-ball.active{
+.toggle-ball.active {
     background-color: white;
     transform: translateX(-20px);
 }
 
-.movie-list-filter select.active{
+.movie-list-filter select.active {
     background-color: white;
     color: black;
 }

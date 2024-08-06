@@ -21,4 +21,10 @@ arrows.forEach((arrow, i) => {
    //console.log(movieLists[i].computedStyleMap().get("transform")[0].x.value);
 });
 
+//dark mode
 
+const ball =document.querySelector(".toggle-ball");
+const items = document.querySelectorAll(".container,.navbar,.sidebar,.sidebar i,.toogle,.toggle-ball,.movie-list-filter select");
+ball.addEventListener("click",function(){
+      items.forEach((item)=>item.classList.toggle("active"));
+})
